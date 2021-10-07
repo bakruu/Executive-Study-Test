@@ -1,0 +1,69 @@
+.slider {
+    width: 800px;
+    height: 10px;
+    display: content;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.manual-btn {
+    border: 2px solid #a49eff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background: #a49eff;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background: #a49eff;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background: #a49eff;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background: #a49eff;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background: #a49eff;
+}

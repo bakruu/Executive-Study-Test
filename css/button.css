@@ -1,0 +1,83 @@
+         .button-below {
+             left: 145px;
+             background-color: #a49eff;
+             font-size: 16px;
+             border: 1px solid rgb(255, 255, 255);
+             width: 150px;
+             height: 40px;
+             border-radius: 6px;
+             text-decoration: none;
+             font-weight: 400;
+             color: #ffffff;
+             justify-items: start;
+             padding: 1px;
+             margin-bottom: -50px;
+         }
+         
+         .button-below p {
+             align-items: center;
+         }
+         
+         .button-below img {
+             display: inline-block;
+             position: relative;
+             overflow: auto;
+         }
+         
+         .button-below:hover {
+             background-color: white;
+             color: #a49eff;
+             border: 1px solid #a49eff;
+         }
+         
+         .button-below:hover image {
+             background-color: black;
+             color: black;
+         }
+         
+         .button-center {
+             float: right;
+             margin: 18px;
+             margin-right: 100px;
+             background-color: rgb(255, 255, 255);
+             font-size: 16px;
+             width: 100px;
+             height: 40px;
+             border: 1px solid #a49eff;
+             border-radius: 6px;
+             text-decoration: none;
+             vertical-align: center;
+             font-weight: 400;
+             color: #a49eff;
+         }
+         
+         .button-center:hover {
+             background-color: #a49eff;
+             color: white;
+         }
+         
+         .btn-join-here {
+             background-color: #5d51fc;
+             font-size: 16px;
+             border: 1px solid rgb(255, 255, 255);
+             width: 150px;
+             height: 40px;
+             color: white;
+             border-radius: 8px;
+             margin-top: 30px;
+         }
+         
+         .btn-join-here:hover {
+             background-color: white;
+             color: #5d51fc;
+             border: 1.2px solid #a49eff;
+         }
+         
+         .button-brief {
+             margin: 10px 0px 10px 0px;
+             text-decoration: none;
+         }
+         
+         .button-a {
+             text-decoration: none;
+         }

@@ -1,0 +1,76 @@
+                .parent {
+                    display: contents;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(7, 1fr);
+                }
+                
+                .header {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: 1fr;
+                }
+                
+                .nav-grid-column {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: 1fr;
+                }
+                
+                .featuni-grid-column {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    height: 350px;
+                    background-color: rgb(245, 245, 245);
+                }
+                
+                .ourServices-grid-row {
+                    display: contents;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                }
+                
+                .news-grid-row {
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    background-color: rgb(245, 245, 245);
+                    padding: 1px;
+                }
+                
+                .events-grid-row {
+                    display: contents;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                }
+                
+                .covered-grid-row {
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    background-color: rgb(245, 245, 245);
+                    padding: 2px;
+                }
+                
+                .testimonial-grid-row {
+                    display: contents;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                }
+                
+                .ready-grid-row {
+                    grid-template-columns: repeat(2, 1fr);
+                    background-color: rgb(245, 245, 245);
+                    height: 150px;
+                    justify-content: center;
+                    align-items: center;
+                    display: grid;
+                }
+                
+                .footer-grid-row {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: 1fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    background-color: #a49eff;
+                    padding: 10px;
+                }
